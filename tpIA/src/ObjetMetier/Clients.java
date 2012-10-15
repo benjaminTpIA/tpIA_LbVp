@@ -117,6 +117,28 @@ public class Clients
 	public void setVersion(int version) {
 		this.version = version;
 	}
+        /**
+         * Getter du titre du client
+         * 
+         * @return le titre du client sous la forme d'une chaîne de caractères
+         * 
+         * @since 1.0
+         */
+	public String getTitre() {
+		return titre;
+	}
+
+        /**
+         * Setter du titre du client
+         * 
+         * @param titre
+         *          titre du client sous la forme d'une chaîne de caractères
+         * 
+         * @since 1.0
+         */
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
 
         /**
          * Getter du nom du client
@@ -141,30 +163,6 @@ public class Clients
 		this.nom = nom;
 	}
 	
-        
-        /**
-         * Getter du titre du client
-         * 
-         * @return le titre du client sous la forme d'une chaîne de caractères
-         * 
-         * @since 1.0
-         */
-	public String getTitre() {
-		return titre;
-	}
-
-        /**
-         * Setter du titre du client
-         * 
-         * @param titre
-         *          titre du client sous la forme d'une chaîne de caractères
-         * 
-         * @since 1.0
-         */
-	public void setTitre(String titre) {
-		this.titre = titre;
-	}
-
         /**
          * Getter du prenom du client
          * 
