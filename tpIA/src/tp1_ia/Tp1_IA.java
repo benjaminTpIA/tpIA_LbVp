@@ -12,7 +12,7 @@ import java.sql.Statement;
 import ConnexionDB.ConnexionBDD;
 
 /**
- *
+ * classe principale
  * @author b
  */
 public class Tp1_IA {
